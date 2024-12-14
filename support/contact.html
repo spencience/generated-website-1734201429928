@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact The Same Old Link - Breaking the cycle of repetitive navigation">
+    <meta name="keywords" content="contact, loop, recursion, navigation patterns, web design">
+    <title>Contact - The Same Old Link</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes linkPulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+        .link-pulse {
+            animation: linkPulse 2s infinite;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gradient-to-br from-indigo-50 to-purple-50">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734201429928/" class="text-2xl font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
+                    <span class="link-pulse inline-block">↻</span> Same Old Link
+                </a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734201429928/archives.html" class="text-gray-600 hover:text-indigo-600">Archives</a>
+                    <a href="/generated-website-1734201429928/patterns.html" class="text-gray-600 hover:text-indigo-600">Patterns</a>
+                    <a href="/generated-website-1734201429928/deja-vu.html" class="text-gray-600 hover:text-indigo-600">Déjà vu</a>
+                    <a href="/generated-website-1734201429928/break-the-cycle.html" class="text-gray-600 hover:text-indigo-600">Break the Cycle</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="max-w-2xl mx-auto">
+                <h1 class="text-4xl font-bold text-gray-800 mb-8 text-center">Contact Us in the Loop</h1>
+                
+                <form method="GET" action="/generated-website-1734201429928/submit-contact" class="space-y-6">
+                    <div class="space-y-2">
+                        <label for="iteration" class="block text-gray-700 font-medium">Loop Iteration</label>
+                        <select id="iteration" name="iteration" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
+                            <option value="first">First Time Here</option>
+                            <option value="again">Been Here Before</option>
+                            <option value="always">Always Been Here</option>
+                            <option value="never">Never Left</option>
+                        </select>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="message" class="block text-gray-700 font-medium">Your Message (Again?)</label>
+                        <textarea id="message" name="message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Haven't you written this before?"></textarea>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="timeline" class="block text-gray-700 font-medium">Timeline Reference</label>
+                        <input type="text" id="timeline" name="timeline" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Which loop are you from?">
+                    </div>
+
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-700 transition-colors">
+                        Send (Once More)
+                    </button>
+                </form>
+
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <a href="/generated-website-1734201429928/temporal-office.html" class="block p-6 bg-indigo-50 rounded-lg hover:bg-indigo-100 transition-colors">
+                        <h3 class="text-lg font-semibold text-indigo-800">Temporal Office</h3>
+                        <p class="text-gray-600">Visit us across all timelines</p>
+                    </a>
+                    <a href="/generated-website-1734201429928/recursive-support.html" class="block p-6 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors">
+                        <h3 class="text-lg font-semibold text-purple-800">Recursive Support</h3>
+                        <p class="text-gray-600">Get help from your past and future selves</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2024 The Same Old Link. All loops preserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="/generated-website-1734201429928/terms.html" class="hover:text-indigo-300">Terms</a>
+                    <a href="/generated-website-1734201429928/privacy.html" class="hover:text-indigo-300">Privacy</a>
+                    <a href="/generated-website-1734201429928/contact.html" class="hover:text-indigo-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
